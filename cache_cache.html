@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="./cache_cache.css">
+	<title>cache_cache</title>
+</head>
+<body>
+
+	<img src="./images/home.png" class="home_img" id="home">
+	<img src="./images/parametre2.png" class="parameter_img" id="parameter">
+
+	<div id="max_click_div" class="max_click_div">Max clicks = /</div>
+	<div id="click" class="click">Clicks = 0</div>
+	<div id="description" class="description"></div>
+
+
+
+
+<div class="backgroung_popUP" id="popup">
+  <div class="pop_up" id="popUpCenter">
+    <h1>⌐■_■ Cache-Cache ಠ_ಠ</h1>
+    <p>❕ Le but est simple ❕<br>Click sur les gobelets <br>pour trouver la boule <br>❌ Mais attention si tu echoue c'est PERDU ❌</p>
+    <h2>Choisie ton niveau :</h2>
+    <select id="selected_level">
+    	<option value="0">Peacefull 💫</option>
+    	<option value="1">Medium 😤</option>
+    	<option value="2">Hard 😡</option>
+    	<option value="3">Nightmare 👾</option>
+    </select>
+    <input type="button" name="" class="start" id="start" value="Start">
+  </div>
+</div>
+
+
+<div class="backgroung_popUP" id="popupScoreBoard">
+	<div class="pop_up" id="popUpCenter">
+		<div class="result" id="result"></div>
+		<div class="align_button">
+			<div class="buttonScoreBoard" id="replay">Rejouer</div>
+			<div class="buttonScoreBoard" id="level">Autre niveau</div>
+		</div>
+		
+	</div>
+</div>
+
+<div class="backgroung_popUP" id="parameterMenu">
+	<div class="pop_up" id="popUpCenter">
+
+		<div class="closeParameterMenu" id="closeParameterMenu"></div>
+
+		<h1 class="title_sound">Sound</h1>
+		<div class="containerSound">
+			<h2 class="soundAmbiance">Background Music :</h2>
+			<div class="buttonSoundActivated" id="buttonSoundActivated1"></div>
+			<div class="buttonSoundAdd" id="buttonSoundAdd1"></div>
+			<div class="buttonSoundRemove" id="buttonSoundRemove1"></div>
+		</div>
+
+		<div class="containerSound">
+			<h2 class="soundAmbiance">FX Music :</h2>
+			<div class="buttonSoundActivated" id="buttonSoundActivated2"></div>
+			<div class="buttonSoundAdd" id="buttonSoundAdd2"></div>
+			<div class="buttonSoundRemove" id="buttonSoundRemove2"></div>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
